@@ -20,7 +20,7 @@ connection_string = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={SQL_SERVE
 
 # ==================== ARACLAR ====================
 @app.route('/hello', methods=['GET'])
-def get_araclar():
+def get_araclar_hello():
     try:
         logger.info("Fetching Araclar...")
 
