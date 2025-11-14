@@ -15,8 +15,7 @@ SQL_USER = 'aconnect'
 SQL_PASSWORD = 'ene60yr1L2Vmns'
 
 # Connection string
-connection_string = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={SQL_SERVER};DATABASE={SQL_DATABASE};UID={SQL_USER};PWD={SQL_PASSWORD}'
-
+connection_string = f'DRIVER={{ODBC Driver 18 for SQL Server}};SERVER={SQL_SERVER};DATABASE={SQL_DATABASE};UID={SQL_USER};PWD={SQL_PASSWORD};TrustServerCertificate=yes;'
 
 # ==================== ARACLAR ====================
 @app.route('/hello', methods=['GET'])
